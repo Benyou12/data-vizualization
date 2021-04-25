@@ -1,0 +1,134 @@
+body {
+  margin: 0px auto;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  color: #333;
+  padding-top: 20px;
+  text-align: center
+}
+
+header > h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+main {
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+svg {
+  height: 500px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 25px
+}
+
+button {
+  padding: 5px 10px;
+  color: #FFF;
+  background-color: transparent;
+  cursor: pointer;
+  outline: 0;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+button.green {
+  border: 1px solid #28a745;
+  color: #28a745;
+}
+
+button.green:hover,
+button.green:active {
+  background-color: #28a745;
+}
+
+button.red:hover,
+button.red:active,
+button.green:hover,
+button.green:active {
+  color: white;
+  transition: 0.1s
+}
+
+button.red {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+}
+
+button.red:hover,
+button.red:active {
+  background-color: #dc3545;
+}
+
+input[type=number] {
+  max-width: 75px;
+  padding: 7px 17px;
+  font-weight: bold;
+  border: 1px solid #eee;
+  margin-right: 10px;
+  border-radius: 25px;
+  background: #f5f6f7;
+}
+
+.pull-right {
+  float: right;
+  position: relative;
+  top: 8px;
+  font-size: 16px;
+  color: #777;
+}
+
+strong#circles-count {
+    color: #333;
+    font-size: 20px;
+}
+
+.form-group {
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.d3-tip {
+  line-height: 1;
+  padding: 12px;
+  border-radius: 11px;
+  color: #fafafa;
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.radius,
+.position,
+.color {
+  font-weight: bold;
+}
+
+.radius {
+  color: red;
+}
+
+.position {
+  color: turquoise;
+}
+
+.color {
+  color: yellow;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold
+}
